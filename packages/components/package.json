@@ -1,0 +1,26 @@
+{
+  "name": "@lowcode-vue2/components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "config": {
+    "module": "./dist/es/index.mjs",
+    "types": "./dist/types/index.d.ts",
+    "exports": {
+      ".": {
+        "import": "./dist/es/index.mjs",
+        "require": "./dist/cjs/index.js",
+        "types": "./dist/types/index.d.ts"
+      }
+    }
+  },
+  "scripts": {
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vue-property-decorator": "^9.1.2"
+  }
+}

@@ -1,0 +1,4 @@
+export const DEFAULT_COL_NUM = 20
+export const DEFAULT_ROW_HEIGHT = 30
+export const DEFAULT_MARGIN_HORIZONTAL = 0
+export const DEFAULT_MARGIN_VERTICAL = 0

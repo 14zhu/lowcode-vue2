@@ -1,0 +1,22 @@
+{
+  "name": "lowcode-vue2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm --filter=play run dev",
+    "build": "pnpm --filter=./packages/core run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.6",
+    "@vitejs/plugin-vue2": "^2.2.0",
+    "rollup-plugin-visualizer": "^5.9.2",
+    "vite": "^4.4.11",
+    "vite-plugin-css-injected-by-js": "^3.3.0",
+    "vite-plugin-dts": "^3.6.0",
+    "vue": "2"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "target": "ES2015",
+    "module": "ESNext",
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
+    "lib": ["esnext", "dom"],
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "paths": {
+      "@lowcode-vue2/*": ["packages/*"]
+    }
+  },
+  "include": ["packages/**/*.ts", "packages/**/*.vue", "index.d.ts"],
+  "exclude": ["node_modules"]
+}
